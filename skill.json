@@ -1,0 +1,27 @@
+{
+  "name": "genpark-meta-muse-multi-app-planner-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Muse Spark cross-app coordination planner.",
+  "author": "genpark",
+  "category": "agentic",
+  "tags": [
+    "meta",
+    "muse",
+    "planner"
+  ],
+  "inputs": {
+    "apps_list": {
+      "type": "array"
+    },
+    "task_description": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "execution_steps": {
+      "type": "array"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
